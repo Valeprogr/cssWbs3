@@ -242,6 +242,10 @@ h2 {
     opacity: 90%;
 
 }
+.flex-box-container{
+    display: flex;
+    flex-direction: row;
+}
 
 .duck {
     display: flex;
@@ -250,7 +254,7 @@ h2 {
 }
 
 .duck img {
-    width: 300px;
+    width: 200px;
 
 }
 
@@ -268,6 +272,7 @@ h2 {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
     grid-gap: 3px;
     width: 80%;
     margin: 0 auto;
@@ -281,7 +286,12 @@ h2 {
     align-items: center;
     height: 150px;
 
-
+}
+.grid-link{
+display: flex;
+border: solid 1px #400D;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -327,7 +337,7 @@ button {
     border-radius: 5px;
     margin: 15px;
     height: 30px;
-    width: 80px;
+    width: 94px;
     background-color: #31E1F7;
     color: #400D51;
 }
